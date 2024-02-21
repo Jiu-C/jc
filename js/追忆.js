@@ -22,7 +22,7 @@ var rule = {
     class_name:'电影&连续剧&动漫&综艺&直播&短剧',
     class_url:'1&7&8&3&49&48',
     play_parse: true,
-    lazy:'js:if(/m3u8|mp4/.test(input)){input}else{let purl=request("http://115.231.220.36:8801/jx/tvbox/2.php?url="+input);input={jx:0,url:JSON.parse(purl).url,parse:0}}',
+    lazy:'js:if(/m3u8|mp4/.test(input)){input}else{let purl=request("http://115.231.220.36:8801/jx/tvbox/3.php?url="+input);input={jx:0,url:JSON.parse(purl).url,parse:0}}',
     limit:6,
     // 图片来源:'@Referer=https://api.douban.com/@User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/113.0.0.0%20Safari/537.36',
     推荐:`js:
