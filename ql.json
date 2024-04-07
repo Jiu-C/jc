@@ -56,7 +56,7 @@
 		{"key":"快看美剧","name":"🍯快看｜XYQ","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/快看美剧.json","jar":"./jar/xyq.jar"},
 		{"key":"剧圈影视","name":"🍯剧圈｜XYQ","type":3,"api":"csp_XYQHiker","jar":"./jar/xyq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/剧圈圈.json"},
 		{"key":"老王影视","name":"🍯老王｜XYQ","type":3,"api":"csp_XYQHiker","jar":"./jar/xyq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/老王.json"},
-		{"key":"农民","name":"🌾农民┃秒播","type":3,"api":"csp_Nmys","jar":"https://d.kstore.space/download/7726/jar/fan.jar","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/农民影视.json"}
+		{"key":"农民","name":"🌾农民┃秒播","type":3,"api":"csp_Nmys","jar":"https://d.kstore.space/download/7726/jar/fan.jar","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/农民影视.json"},
 		{"key": "圣城影视","name":"🍯圣城｜XYQ","type":3,"api":"csp_XYQHiker","jar":"./jar/xyq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/圣城.json"},
 		{"key":"喵物","name":"🥡喵物｜Js","type":3,"api":"./lib/drpy2.min.js","searchable":1,"changeable":1,"ext":"./js/喵物次元.js"},		
 		{"key": "freeok","name": "🥡FROK｜影视｜Js","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/FreeOK.js"},
