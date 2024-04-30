@@ -1,0 +1,11 @@
+{
+    "直接播放": "1",
+    "数组": "class=\"col-xs-6 col-md-3\">&&</div>",
+    "图片": "style=\"background-image: url('&&')\"",
+    "链接": "href=\"&&\"",
+    "链接前缀": "https://hsex.icu/",
+    "搜索url": "https://hsex.icu/search.htm?search={wd}&sort=new",
+    "分类": "周榜$top7#月榜$top#5分钟$5min#10分钟$10min",
+    "分类url": "https://hsex.icu/{cateId}_list-{catePg}.htm;;RC",
+    "页面代理": "127.0.0.1:10071"
+}
