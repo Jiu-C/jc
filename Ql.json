@@ -1,8 +1,9 @@
 {
     "spider": "./jar/pg.jar",
     "warningText": "青璃：愿我们一直奔走在自己的热爱里过想要的生活，每一份付出都有收获万事顺遂，毫无蹉跎。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+    "logo": "https://s21.ax1x.com/2024/05/06/pkErPZd.jpg",
     "sites": [
-        {"key":"路飞搜索","name":"🌕青璃｜主页","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./jh/lf_search3_min.js"},
+        {"key":"路飞搜索","name":"🌕青璃｜主页","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./jh/lf_search3_min.js"},       
         {"key": "豆瓣","name": "🌕豆瓣｜索引","type": 3,"api": "csp_Douban","searchable": 0,"changeable": 1,"indexs": 1,"ext": "./lib/douban.json"},
         {"key":"YGP","name":"📼预告｜荐影","type":3,"api":"csp_YGP","jar":"https://d.kstore.space/download/7726/jar/fan.jar","searchable":0,"quickSearch":0,"changeable":0},
         {"key":"Local","name":"💾本地｜文件","type":3,"api":"csp_Local"},
@@ -16,7 +17,7 @@
         {"key":"ThunderShare","name":"🌔迅雷｜分享","type":3,"api":"csp_ThunderShare","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"timeout":60,"ext":"./lib/tokenm.json$$$./lib/thundershare.txt","style":{"type":"list","ratio":1.1}},
         {"key":"PikPakShare","name":"🌔PikPak｜分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60,"ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz","style":{"type":"list","ratio":1.1}},
         {"key":"SambaShare","name":"🌔Samba｜分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0,"changeable":0,"filterable":0,"timeout":60,"ext":"./lib/tokenm.json$$$./lib/sambashare.txt"},
-        {"key":"玩偶","name":"👽玩偶┃网盘","type":3,"api":"csp_WoGG","jar":"https://d.kstore.space/download/7726/jar/fan.jar","searchable":1,"quickSearch":1,"changeable":0,"ext":{"aliToken":"TVbox/JS/lib/token.txt","quarkCookie":"TVbox/JS/lib/quark.txt","from":"4k|auto|fhd","siteUrl":"https://api.wogg.xyz/","danMu":"弹"}},
+        {"key":"玩偶","name":"👽玩偶┃网盘","type":3,"api":"csp_WoGG","jar":"https://7726.kstore.space/jar/fan.jar","searchable":1,"quickSearch":1,"changeable":0,"ext":{"aliToken":"./lib/token.txt","quarkCookie":"./lib/quark.txt","from":"4k|auto|fhd","siteUrl":"https://www.wogg.link/","danMu":"弹"}},
         {"key":"ddys","name":"🌔低端｜网盘","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://ddys.mov/$$$proxy$$$1$$$"},
         {"key":"美剧迷","name":"🌔美剧迷｜网盘","type":3,"api":"csp_Meijumi","quickSearch":1,"changeable":1,"filterable":1,"timeout":120,"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
         {"key":"土豆网盘弹幕","name":"🌔土豆┃网盘","type":3,"api":"csp_Wobg","jar":"https://jihulab.com/okcaptain/kko/-/raw/main/okjpg.txt","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"file://TV/ali_token.txt","cookie":"file://TV/quark_cookie.txt","site":"https://tudou.lvdoui.top","danmu":true},"timeout":25},
@@ -64,6 +65,7 @@
 		{"key":"白嫖","name":"🌅白嫖┃影视","type":3,"api":"csp_BaiPiao","jar":"https://7726.kstore.space/jar/fm.jar","playerType":"2"},
 		{"key":"网飞猫","name":"🍻网飞猫｜Js","type":3,"api":"./lib/drpy2.min.js","searchable":1,"changeable":1,"ext":"./jh/网飞猫.js"},		
 		{"key": "freeok","name": "🥡FROK｜Js","type": 3,"api": "./lib/drpy2.min.js","ext": "./jh/FreeOK.js"},
+		{"key": "白嫖者","name": "🌈白嫖者｜Js","type": 3,"api": "./lib/drpy2.min.js","ext": "./jh/白嫖者联盟.js"},
 		{"key":"厂长","name":"🍪厂长｜Jar","type":3,"api":"csp_Czzy","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar":"https://d.kstore.space/download/7726/jar/yz.jar","ext":"https://www.czzy77.com"},
 		{"key":"csp_Nkdy","name":"🏔耐看┃影视","type":3,"playerType":"2","api":"csp_Nkdy","jar":"https://d.kstore.space/download/7726/jar/fm.jar"},
 		{"key":"csp_NfApp","name":"🔷南坊┃影视","type":3,"playerType":"2","api":"csp_NfApp","jar":"https://d.kstore.space/download/7726/jar/fm.jar"},
@@ -105,7 +107,8 @@
 		{"key":"BT天堂","name":"🍘BT天堂｜磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/bttt.json","jar":"./jar/XBPQ.jar"},
 		{"key":"布谷tv","name":"🍘布谷｜磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","ext":"./jh/布谷.json"},
 		{"key":"haokongbu","name":"🍘好恐怖｜磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./jh/好恐怖.json","jar":"./jar/XBPQ.jar"},
-        /*{"key":"Taohuazu","name":"🚗桃花族｜车车","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://thze.cc"},
+		{"key": "狸云","name": "🍘狸云｜磁力","type": 3,"api": "csp_XBPQ","jar": "./jar/XBPQ.jar","ext": "./jh/狸云.json"},
+       /* {"key":"Taohuazu","name":"🚗桃花族｜车车","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://thze.cc"},
         {"key":"csp_Gxqvlj","name":"🚗Gxqvlj｜车车","type":3,"api":"csp_Gxqvlj","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.55},"ext":"null$$$127.0.0.1:10071"},
 		{"key":"Netflav","name":"🚗Netflav｜车车","type":3,"api":"csp_Netflav","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://netflav5.com/$$$127.0.0.1:10073"},
 		{"key":"色花堂", "name": "🚗花堂｜车车", "type": 3, "api": "csp_XBPQ", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "./jh/花堂.json", "jar": "./jar/XBPQ.jar"},
@@ -119,9 +122,11 @@
 		{"key":"csp_Jable","name":"🚗Jable｜车车","type":3,"api":"csp_Jable","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"timeout":1801,"ext":"127.0.0.1:10071"},
 		{"key": "MissAV","name":"🚗MissAV｜车车","type": 3,"api": "csp_Miss","searchable":1,"changeable":1,"ext":"127.0.0.1:10073","style":{"type": "rect", "ratio": 1.65}},
 		{"key":"Doll","name":"🚗Doll｜磁力","type":3,"api":"csp_Doll","changeable":0,"quickSearch":1,"searchable":1,"ext":"127.0.0.1:10073","style":{"type":"rect","ratio":1.5}},
+		{"key":"Eighteen","name":"🚗Eighteen｜磁力","type":3,"api":"csp_Eighteen","changeable":0,"quickSearch":1,"searchable":1,"ext":"127.0.0.1:10073","style":{"type":"rect","ratio":1.5}},
 		{"key":"Hanime","name":"🚗Hanime｜车车","type":3,"style":{"type":"rect","ratio":1.485},"api":"csp_Hanime","searchable":1,"quickSearch":1,"changeable":0,"ext":"127.0.0.1:10073"},
 		{"key":"SMTV","name":"🚗色迷｜TV","type":3,"changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","api":"csp_XBPQ","ext":"./jh/色迷.json"},
 		{"key":"黄色仓库","name":"🚗黄仓｜车车","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"style":{"type":"rect","ratio":1.99},"ext":"./jh/黄色仓库.json"},
+		{"key":"糖心","name":"🚗糖心｜次元","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","style":{"ratio":1.7},"ext":"./jh/糖心次元.json"},
 		{"key":"csp_XBPQ_女优","name":"🚗女优｜车车","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./jh/女优.json","jar":"./jar/XBPQ.jar"},
 		  {"key": "py_黑料②","name": "🚗黑料网｜py","type": 3,"api": "./jh/黑料网.py","searchable": 1,"quickSearch": 0,"filterable": 1,"ext": ""},
 		  {"key":"langqun","name":"🚗狼群｜影院","type":3,"changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","ext":"./jh/狼群.json"},*/
@@ -145,6 +150,7 @@
         {"key":"快帆","name":"🤡快帆｜采集","type":1,"api":"http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://api.kuaifan.tv/api.php/provide/vod?","playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=","searchable":1,"changeable":1},
         {"key":"量子","name":"🤡量子｜采集","type":1,"api":"http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?","playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=","playerType":1,"searchable":1,"changeable":1},
         {"key":"非凡","name":"🤡非凡｜采集","type":1,"api":"http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?","playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=","playerType":1,"searchable":1,"changeable":1,"categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","香港剧","欧美剧","记录片","台湾剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"]},
+        {"key":"乐视","name":"🤡乐视｜采集","type":1,"searchable":0,"api":"https://leshiapi.com/api.php/provide/vod/","playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=","categories":["国产剧","香港剧","台湾剧","韩国剧","泰国剧","日剧","欧美剧","海外剧","短剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日本动漫","欧美动漫","海外动漫","卡通动漫","伦理片","韩国伦理","日本伦理","其他伦理","纪录片","动作片","爱情片","科幻片","恐怖片","剧情片","战争片","喜剧片","动画片","犯罪片","奇幻片","灾难片","悬疑片","其他片","电影","连续剧","动漫","综艺","电影解说","体育赛事","港台三级","反转爽剧","女频恋爱","古装仙侠","年代穿越","脑洞悬疑","现代都市"]},
         {"key":"櫻花","name":"🤡樱花｜采集","type":3,"api":"csp_Ying","searchable":1,"changeable":0},
         {"key":"巴士","name":"🤡巴士｜采集","type":3,"api":"csp_Dm84","searchable":1,"changeable":0},
         {"key":"異界","name":"🤡异界｜采集","type":3,"api":"csp_Ysj","searchable":1,"changeable":0},
@@ -193,6 +199,12 @@
 				"type": 0,
 				"playerType": 1,
 				"url": "./lib/yo21.txt"
+			},
+			{
+				"name": "唐三",
+				"type": 0,
+				"playerType": 1,
+				"url": "https://tang.serv00.net/zb/99?token=ce42326c"
 			},
 			{
 				"name": "直播",
